@@ -135,11 +135,7 @@ nav a:hover {
     padding: 5px;
     background: linear-gradient(45deg, #00ff9d, #ff2a6d, #3a86ff, #00ff9d);
     box-shadow: 0 0 20px rgba(0, 255, 157, 0.5);
-    animation: rotate-border 4s linear infinite;
-}
-
-.profile-wrapper:hover {
-    animation-play-state: paused;
+    
 }
 
 .profile-pic {
@@ -327,16 +323,16 @@ h2,h3,h4 {
 .video-sample h2 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-  color: var(--accent-1); /* adjust to match your color theme */
+  color: var(--accent-1);
 }
 
 .video-sample p {
   font-size: 1rem;
   margin-bottom: 1.5rem;
-  color: var(--text); /* optional: matches existing theme */
+  color: var(--text); 
 }
 
-/* Responsive Video */
+
 .video-sample video {
   width: 100%;
   height: auto;
@@ -695,9 +691,7 @@ textarea {
   font-size: 0.9rem;
 }
 
-@keyframes rotate-border {
-    to {transform: rotate(360deg);}
-}
+
 
 
 @media (max-width: 600px) {
