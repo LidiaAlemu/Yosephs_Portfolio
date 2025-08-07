@@ -317,6 +317,34 @@ h2,h3,h4 {
     margin-bottom: 2rem;
 }
 
+.video-sample {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.video-sample h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--accent-1); /* adjust to match your color theme */
+}
+
+.video-sample p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: var(--text); /* optional: matches existing theme */
+}
+
+/* Responsive Video */
+.video-sample video {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
